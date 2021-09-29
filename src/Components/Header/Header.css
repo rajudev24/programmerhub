@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 71, 49);
+}
+.title{
+    color: white;
+    margin-left: 80px;
+    font-weight: 800;
+    font-size: 20px; 
+}
+.menu-list{
+    margin-right: 40px;
+    display: grid;
+    align-items: center;
+}
+.menu-list a{
+    
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+}
+.menu-list a:hover{
+    background-color: whitesmoke;
+    color: tomato;
+    border-radius: 5px;
+}
+

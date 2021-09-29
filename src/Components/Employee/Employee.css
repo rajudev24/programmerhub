@@ -1,0 +1,32 @@
+.employee-body{
+    background-image: url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.site-details{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(209, 251, 237, 0.664);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    /* color: greenyellow; */
+}
+.site-details h3{
+    margin-top: 0px;
+}
+.employee{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* background-color: rgb(235, 232, 231); */
+  
+    
+}
+.employee-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+}
+

@@ -1,0 +1,39 @@
+.engineer-container{
+    background-color: rgb(208, 228, 228);
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    border:2px solid rgb(48, 148, 81);
+    margin: 5px;
+    padding: 10px;
+    
+}
+.engineer-container img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.image {
+    display: grid;
+    justify-content: center;
+}
+.engineer-container h2, h4{
+    margin: 6px 0;
+}
+.engineer-details{
+    display: grid;
+    justify-items: center;
+}
+.enginner-btn{
+    background-color: rgb(39, 25, 22);
+    border-radius: 10px;
+    padding: 10px 0px;
+    width: 70%;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+.social-account{
+    margin-top: 5px;
+    margin-right: 10px;
+}
